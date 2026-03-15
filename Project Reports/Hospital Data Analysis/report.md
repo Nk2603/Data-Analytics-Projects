@@ -151,15 +151,7 @@ The **Hospital Insights Dashboard** demonstrates how data analytics can help hea
 
 Using data visualization tools like **Power BI**, hospitals can improve operational efficiency, optimize treatment strategies, and enhance patient care.
 
----
-
-## 🔮 Future Improvements
-- Predictive analytics for **patient readmission risk**
-- Machine learning models for **treatment cost prediction**
-- Integration with **real-time hospital databases**
-- Advanced patient demographic analysis
-
----
+--- 
 
 ## 📷 Dashboard Preview
 
