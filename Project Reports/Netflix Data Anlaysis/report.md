@@ -1,40 +1,42 @@
-# 🎬 Netflix Analysis Dashboard – Data Analytics Report
+# 🎬 Netflix Content Analysis Dashboard – Data Analytics Report
 
 ## 📊 Project Overview
-The **Netflix Analysis Dashboard** is a data analytics project created to analyze Netflix content data and extract insights about titles, genres, ratings, release trends, and country-wise content distribution.
+The **Netflix Content Analysis Dashboard** is a data analytics project built to explore and analyze Netflix’s global content library. The dashboard provides insights into content distribution, ratings, genres, release trends, and country contributions.
 
-This dashboard helps understand how Netflix content is distributed across **movies, TV shows, genres, and countries**, and how the platform has expanded its content library over time.
-
----
-
-## 🎯 Objectives
-The main objectives of this project are:
-
-- Analyze the **distribution of movies and TV shows**
-- Understand **content trends over time**
-- Identify **popular genres on Netflix**
-- Analyze **content ratings**
-- Study **country-wise contribution of titles**
+Using interactive visualizations, the dashboard helps understand how Netflix's content library has evolved and what type of content dominates the platform.
 
 ---
 
-## 🛠 Tools & Technologies
-- **Power BI** – Data visualization and dashboard development
-- **Power Query** – Data cleaning and transformation
-- **DAX (Data Analysis Expressions)** – Calculations and measures
-- **Dataset** – Netflix titles dataset
+# 🎯 Objectives
+
+The main goals of this project are:
+
+- Analyze the **distribution of Movies and TV Shows**
+- Understand **Netflix content growth over time**
+- Identify **popular genres available on Netflix**
+- Study **content rating distribution**
+- Analyze **country-wise contribution of Netflix titles**
 
 ---
 
-## 📌 Key Performance Indicators (KPIs)
+# 🛠 Tools & Technologies
+
+- **Power BI** – Data visualization and dashboard creation  
+- **Power Query** – Data cleaning and transformation  
+- **DAX (Data Analysis Expressions)** – Data modeling and calculations  
+- **Dataset** – Netflix Movies & TV Shows Dataset  
+
+---
+
+# 📌 Key Performance Indicators (KPIs)
 
 | Metric | Value |
 |------|------|
-| Total Titles | **194** |
-| Total TV Shows | **40** |
-| Total Movies | **154** |
+| Total Titles | **8809** |
+| Total TV Shows | **2676** |
+| Total Movies | **6131** |
 
-These KPIs provide a quick summary of the Netflix dataset.
+These KPIs provide a quick summary of Netflix's total content available in the dataset.
 
 ---
 
@@ -42,124 +44,121 @@ These KPIs provide a quick summary of the Netflix dataset.
 
 ## 1️⃣ Content Type Distribution
 
-| Type | Percentage |
-|------|------------|
-| Movies | **79.38%** |
-| TV Shows | **20.62%** |
+| Content Type | Percentage |
+|--------------|------------|
+| Movies | **69.62%** |
+| TV Shows | **30.38%** |
 
 **Insight:**  
-Movies dominate the Netflix dataset, indicating that Netflix still relies heavily on movie content compared to TV shows.
+Movies dominate Netflix’s content library, representing nearly **70% of all available titles**, while TV Shows account for approximately **30%**.
 
 ---
 
 ## 2️⃣ Rating Distribution
-The rating chart displays how Netflix content is categorized based on audience suitability.
+
+The rating distribution chart shows how Netflix categorizes its content based on audience age groups.
 
 Major ratings include:
 
-- **TV-14** – 50 titles  
-- **TV-MA** – 42 titles  
-- **PG-13** – 26 titles  
-- **TV-PG** – 20 titles  
-- Other ratings include **TV-Y6, NR, PG, R**, etc.
+| Rating | Titles |
+|------|------|
+| TV-MA | 3.21K |
+| TV-14 | 2.16K |
+| R | 0.80K |
+| TV-PG | 0.86K |
+| PG-13 | 0.49K |
+| Others | Small proportion |
 
 **Insight:**  
-Most Netflix content falls under **TV-14 and TV-MA**, suggesting that the platform focuses mainly on **teen and mature audiences**.
+Most Netflix content falls under **TV-MA and TV-14 ratings**, indicating that the platform mainly targets **teen and mature audiences**.
 
 ---
 
-## 3️⃣ Content Added Over Time
-The line chart shows the number of titles added to Netflix over different years.
+## 3️⃣ Content Growth Over Time
 
-**Key Observations:**
+The **Titles Added by Year** line chart shows Netflix’s content expansion.
 
-- Content addition remained low before **2016**
-- Significant growth started around **2017**
-- Netflix rapidly increased its content library after that period
+Key observations:
+
+- Content growth remained relatively low before **2015**
+- A rapid increase occurred after **2016**
+- The highest number of titles were added between **2018 and 2020**
 
 **Insight:**  
-This growth reflects Netflix’s aggressive expansion strategy in recent years.
+Netflix significantly expanded its content library during the **late 2010s**, reflecting its global expansion strategy.
 
 ---
 
 ## 4️⃣ Country-wise Content Distribution
-The bar chart highlights which countries contribute the most Netflix titles.
 
-Top contributing countries:
+The bar chart shows the countries that contribute the most titles to Netflix.
+
+Top contributing countries include:
 
 1. **United States**
 2. **India**
-3. **Japan**
-4. **Egypt**
-5. **Turkey**
+3. **United Kingdom**
+4. **Japan**
+5. **South Korea**
 
 **Insight:**  
-The **United States dominates Netflix content production**, while countries like **India and Japan** are also major contributors.
+The **United States dominates Netflix production**, while **India and Asian countries** are increasingly contributing more content.
 
 ---
 
 ## 5️⃣ Genre Distribution
-This visualization shows the most common content categories on Netflix.
 
-Popular genres include:
+The genre analysis identifies the most common content categories on Netflix.
+
+Top genres include:
 
 - **Dramas & International Movies**
+- **Documentaries**
+- **Stand-Up Comedy**
 - **Comedies & Dramas**
-- **Children & Family Movies**
-- **Action & Adventure**
+- **Independent Dramas**
 
 **Insight:**  
-Drama-based content appears most frequently in the dataset, making it the most dominant genre.
+Drama-based content is the most dominant genre in the Netflix dataset.
 
 ---
 
-## 🎛 Dashboard Filters
-The dashboard provides interactive filters to explore the dataset more effectively.
+# 🎛 Dashboard Filters
 
-Filters available:
+The dashboard provides interactive filters for deeper exploration:
 
 - **Type (Movie / TV Show)**
 - **Release Year**
 - **Rating**
 
-These filters allow users to explore specific segments of Netflix content.
+These filters allow users to analyze specific segments of Netflix content.
 
 ---
 
 # 📊 Key Findings
 
-- **Movies dominate Netflix content**, representing nearly 80% of titles.
-- **TV-14 and TV-MA** are the most common content ratings.
-- Netflix content growth accelerated significantly after **2017**.
-- **United States produces the largest share of Netflix content**.
-- **Drama-related genres are the most popular categories** on the platform.
+- Netflix hosts **over 8800 titles** in the dataset.
+- **Movies dominate the platform**, making up nearly **70% of total content**.
+- **TV-MA and TV-14** are the most common content ratings.
+- Netflix saw **rapid content growth after 2016**.
+- The **United States produces the majority of Netflix content**.
+- **Drama and international content are the most common genres**.
 
 ---
 
 # 🚀 Conclusion
-The **Netflix Analysis Dashboard** provides valuable insights into the platform's content distribution, audience targeting, and growth trends.
 
-Through data visualization, it becomes easier to understand:
+The **Netflix Content Analysis Dashboard** demonstrates how data analytics can be used to understand streaming platform trends.
 
-- Content type balance
-- Audience rating trends
-- Geographic distribution of content
-- Popular genres on Netflix
+By analyzing Netflix content data, we can observe:
 
-Such insights can help streaming platforms make **strategic content decisions** and improve their entertainment offerings.
+- Content distribution across movies and TV shows
+- Audience targeting through ratings
+- Geographic distribution of productions
+- Popular genres among viewers
 
----
+These insights can help streaming platforms improve **content strategy, audience targeting, and platform growth**.
 
-# 🔮 Future Improvements
-
-Potential enhancements for this project include:
-
-- Sentiment analysis on **Netflix reviews**
-- Predictive models for **popular genres**
-- Content recommendation analytics
-- Trend forecasting for **future content demand**
-
----
 
 ## 📷 Dashboard Preview
 
