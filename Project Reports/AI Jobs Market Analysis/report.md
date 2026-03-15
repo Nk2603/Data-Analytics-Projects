@@ -144,9 +144,6 @@ These features make the dashboard **interactive and user-friendly**.
 ![AI Job Market Dashboard](dashboard.png)
 ---
 
-Linkledin Post Link :  https://www.linkedin.com/posts/nisha-kumari-3b453928a_dataanalytics-powerbidashboard-ai-ugcPost-7437537082312478720--Cre?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYzzfgBfy0WWRy6h8brmDLn7WNyvFCxs1M 
----
-
 ## 📌 Key Takeaways
 
 - AI job opportunities are growing rapidly across industries.
